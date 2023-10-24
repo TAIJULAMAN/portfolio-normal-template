@@ -1,0 +1,27 @@
+[
+    {
+        "id": "blog1",
+        "name": "Eyegaze Redirection using morphing and python libraries",
+        "description": "Live video communication is increasingly used around the globe, sometimes it's less interactive than face-to-face communication because of technological limitations.Proper eye contact or missing eye contact is one of the problems caused by the physical deviation between the screen and camera on a device.And Holding eye contact with remote users is a critical issue in video conferencing systems or making video documentation because of parallax caused by a screen and a camera.We are using morphing algorithm in video frames to correct eye gaze.Initially, our system will take a photo of user, after starting video communication it will replace eye frame by the eye frame of taken photo by using morphing algorithm.",
+        "report": "https://www.researchgate.net/publication/362381861_Implementation_and_Evaluation_of_Eye_Gaze_Redirection",
+        "code": "https://github.com/ImranHossain1/Eye_swapping"
+    },
+    {
+        "id": "blog2",
+        "name": "Sign Language To Speech Conversion Using Arduino.",
+        "description": "Deaf-mute people use sign language, while regular people use sound language. The majority of the time, non-deaf people do not understand sign language used by deaf-mutes. There is a gulf between normal people and deaf-mute people, and communication is difficult. The aim is to recognize sign language and translate it to sound language, bridging the communication gap between deaf-mutes and the wider community. An Arduino-based sign-to-speech conversion framework will be presented in this paper. Flex sensors and microcontroller boards will be used in the proposed method to recognize the hand/figure motion and then convert it to sound.",
+        "report": "https://www.researchgate.net/publication/356285746_SIGN_LANGUAGE_TO_SPEECH_CONVERSION_USING_ARDUINO"
+    },
+    {
+        "id": "blog3",
+        "name": "Celebrity Face Recognition using AWS Rekognition",
+        "description": "In this research, the problem is to find out a specific individual from a large image dataset. Our focus is on individuals’ faces and their patterns. Many similarities exist among faces from around the world. It's important to look at any potential variances though. Our task is to locate the appropriate individual and provide accurate information about him or her. To work with this challenge, we have selected Amazon celebrity Rekognition. In the last few years, Deep Learning has been a very popular research topic in computer vision. It is a branch of Artificial Intelligence and a sub-field of Machine Learning. It can achieve very significant results on a variety of image and pattern recognition problems.",
+        "report": "https://www.researchgate.net/publication/362381867_Celebrity_Face_Recognition_using_AWS_Rekognition"
+    },
+    {
+        "id": "blog4",
+        "name": "Support Vector Machine",
+        "description": "Support vector machines (SVMs) can be used to handle classification, regression, and outlier problems that are frequently encountered in supervised learning. The SVM is incredibly powerful on higher dimensional data, but has significant drawbacks when the data is very large and noisy. In this paper, we will attempt to explain the idea of SVM as well as the underlying mathematical theory. Support vector machines come in various forms and can be used for a variety of applications, including text categorization, practical identification, face recognition, and time series prediction. In this paper, we will see how this paradigm is put into practice.",
+        "report": "https://www.researchgate.net/publication/365892847_Support_Vector_Machine"
+    }
+]

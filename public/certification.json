@@ -1,0 +1,15 @@
+[
+    {
+        "id": "certificate1",
+        "name": "AWS Certified Cloud Practitioner",
+        "certifiedBy": "Amazon Web Services",
+        "Certificate": "https://i.ibb.co/m8S9t5P/image.png",
+        "verifiedLink": "https://www.credly.com/badges/dee29a81-1656-43c1-b145-c87455e2160d/public_url"
+    },{
+        "id": "certificate2",
+        "name": "Cisco Certified Network Associate Routing and Switching",
+        "certifiedBy": "Cisco",
+        "Certificate": "https://i.ibb.co/KKLgz81/CCNA.jpg",
+        "verifiedLink": "https://www.credly.com/badges/5c87825d-8d9a-4c06-8d05-7fe000f680bf/linked_in_profile"
+    }
+]

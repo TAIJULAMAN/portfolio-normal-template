@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Frontend Developer",
+    "companyName": "Aveenir IT",
+    "Website": " www.aveenirit.com",
+    "time": "03/2021 – 06/2022",
+    "responsibility1": "Built responsive and mobile-friendly web applications",
+    "responsibility2": "Managing application state using React hooks or Redux.",
+    "responsibility3": "Ensuring cross-browser compatibility and accessibility standards.",
+    "responsibility4": "Collaborating with designers and back-end developers to integrate frontend with APIs.",
+    "technologies": "Javascript, React Js,TypeScript, Redux, ES6, GitHub, VS Code"
+  },
+  {
+    "name": "Software Developer",
+    "time": "07/2018 – 07/2019",
+    "companyName": "Srejanee CybernetiX",
+    "responsibility1": "Designing and implementing user interfaces for web applications.",
+    "responsibility2": "Developing and maintaining back-end APIs and databases.",
+    "responsibility3": "Conducting code reviews and collaborating with team members.",
+    "responsibility4": "Collaborating with cross-functional teams.",
+    "technologies": "ReactJs, Material-UI, Node.Js, Express.Js, Mongoose, Firebase, Jira, Github, VS Code"
+  },
+  {
+    "name": "Teaching Assistant",
+    "companyName": "Dept. of Computer Science, American International University-Bangladesh",
+    "time": "02/2018 -  04/2018",
+    "responsibility1": "Collaborating with the instructor to enhance the learning experience",
+    "responsibility2": "Assisting students in understanding and applying ASP.NET concepts and principles.",
+    "responsibility3": "Conducting tutorial sessions and facilitating discussions",
+    "responsibility4": "Assisting in the development and implementation of course materials",
+    "technologies": "C#, ASP.Net"
+  }
+]
