@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.font-one {
+  font-family: "Ubuntu", sans-serif;
+}
+.font-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.custom-bg {
+  background-color: rgb(34, 32, 32);
+}
+.custom-bg2 {
+  background-color: #3c3e41;
+}
+html {
+  scroll-behavior: smooth;
+}
+.pics{
+  -webkit-transition:all 350ms ease;
+  transition:all 1s ease;
+  cursor:pointer;
+}
+.pics:hover{
+  filter: opacity(.8);
+  transform: scale(1.1);
+}
