@@ -1,8 +1,8 @@
-
-import About from './About';
 import Banner from './Banner';
+import Contact from './Contact';
 import Featured from './Featured/Featured';
 import Languages from './Languages';
+import Porttfolio from './Portfolio/Porttfolio';
 
 const Home = () => {
     return (
@@ -10,7 +10,8 @@ const Home = () => {
         <Banner></Banner>
         <Featured></Featured>
         <Languages></Languages>
-        <About></About>
+        <Porttfolio></Porttfolio>
+       <Contact></Contact>
         </div>
     );
 };

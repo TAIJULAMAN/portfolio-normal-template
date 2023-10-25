@@ -1,10 +1,33 @@
-import React from 'react';
+import    { useState } from "react";
+import "./Portfolio.css";
+import PortfolioModals from "./PortfolioModals";
 
-const SinglePortfolio = () => {
+
+const SinglePortfolio = ({ portfolio }) => {
+      const { projectImg } = portfolio;
+  const [open, setOpen] = useState(false);
     return (
-        <div>
-            
-        </div>
+        <>
+             <div
+               className="img"
+               style={{
+                 transition: "background 3s ease",
+                 backgroundImage: `url(${projectImg})`,
+                 backgroundRepeat: "no-repeat",
+               }}
+             >
+               <button onClick={() => setOpen(true)} className="btn-visit">
+                 Visit
+               </button>
+               <PortfolioModals
+               portfolioData={portfolio}
+               tags={portfolio.tags}
+               Languages={portfolio.Languages}
+               open={open}
+               setOpen={setOpen}
+             />
+             </div>
+           </>
     );
 };
 

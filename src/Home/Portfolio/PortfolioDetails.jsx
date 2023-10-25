@@ -1,10 +1,16 @@
-import React from 'react';
+// import React from 'react';
+// import "./PortfolioDetails.css"
 
-const PortfolioDetails = () => {
+const PortfolioDetails = ({item}) => {
+    const {img, type} = item;
+
     return (
-        <div>
-            <h1>aman</h1>
-        </div>
+        <div className="person">
+             <img src={img} alt="" className="person-pic"/>
+             <div className="person-info">
+                 <h2>{type}</h2>
+             </div>
+         </div>
     );
 };
 

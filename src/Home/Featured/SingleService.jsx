@@ -6,6 +6,7 @@ AOS.init();
 const SingleService = ({ service }) => {
   const {
     name,
+    image,
     responsibility1,
     responsibility2,
     responsibility3,
@@ -19,7 +20,7 @@ const SingleService = ({ service }) => {
     >
       <img
         className="w-8 "
-        src="https://i.ibb.co/022y4yD/web-development.png"
+        src={image}
         alt=""
       />
 
