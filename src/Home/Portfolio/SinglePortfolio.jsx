@@ -3,8 +3,8 @@ import "./Portfolio.css";
 import PortfolioModals from "./PortfolioModals";
 
 
-const SinglePortfolio = ({ portfolio }) => {
-      const { projectImg } = portfolio;
+const SinglePortfolio = ({ portfolios }) => {
+      console.log(portfolios)
   const [open, setOpen] = useState(false);
     return (
         <>
@@ -12,7 +12,7 @@ const SinglePortfolio = ({ portfolio }) => {
                className="img"
                style={{
                  transition: "background 3s ease",
-                 backgroundImage: `url(${projectImg})`,
+                 backgroundImage: `url(${portfolios.projectImg})`,
                  backgroundRepeat: "no-repeat",
                }}
              >
@@ -20,9 +20,9 @@ const SinglePortfolio = ({ portfolio }) => {
                  Visit
                </button>
                <PortfolioModals
-               portfolioData={portfolio}
-               tags={portfolio.tags}
-               Languages={portfolio.Languages}
+               portfolioData={portfolios}
+               tech={portfolios.tech}
+               Languages={portfolios.Languages}
                open={open}
                setOpen={setOpen}
              />
@@ -32,38 +32,3 @@ const SinglePortfolio = ({ portfolio }) => {
 };
 
 export default SinglePortfolio;
-
-
-// import React, { useState } from "react";
-// import "../Portfolio.css";
-// import PortfolioModal from "../PortfolioModal";
-
-// const SinglePortfolio = ({ portfolio }) => {
-//   const { projectImg } = portfolio;
-//   const [open, setOpen] = useState(false);
-//   return (
-//     <>
-//       <div
-//         className="img"
-//         style={{
-//           transition: "background 3s ease",
-//           backgroundImage: `url(${projectImg})`,
-//           backgroundRepeat: "no-repeat",
-//         }}
-//       >
-//         <button onClick={() => setOpen(true)} className="btn-visit">
-//           Visit
-//         </button>
-//         <PortfolioModal
-//         portfolioData={portfolio}
-//         tags={portfolio.tags}
-//         Languages={portfolio.Languages}
-//         open={open}
-//         setOpen={setOpen}
-//       />
-//       </div>
-//     </>
-//   );
-// };
-
-// export default SinglePortfolio;

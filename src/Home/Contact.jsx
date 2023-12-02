@@ -1,4 +1,4 @@
-
+import img1 from '../assets/Images/m.png';
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import AOS from "aos";
@@ -13,10 +13,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_xebf4z6",
-        "template_8mv9naw",
+        "service_yjbh212",
+        "template_t188waj",
         form.current,
-        "nn096AHWqx9AY20He"
+        "WHQJzODV8idBO7OVmauvt"
       )
       .then(
         (result) => {
@@ -45,7 +45,7 @@ const Contact = () => {
           
          <img
            className="mx-auto"
-           src="m.png"
+           src={img1}
            alt=""
          />
        </div>

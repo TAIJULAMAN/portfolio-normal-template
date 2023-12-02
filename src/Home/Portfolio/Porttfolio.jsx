@@ -15,7 +15,7 @@ const Porttfolio = () => {
       .then((res) => res.json())
       .then((data) => setPortfolios(data));
   }, []);
-  console.log(portfolios.img);
+  // console.log(portfolios.img1);
 
     return (
         <div className="grid justify-items-center mx-auto my-12 text-center ">
@@ -28,8 +28,8 @@ const Porttfolio = () => {
            className="grid mx-auto gap-16 grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
              {portfolios.map((portfolio) => (
                <SinglePortfolio
-                 key={portfolio.name}
-                 portfolio={portfolio}
+                 key={portfolio.id}
+                 portfolios={portfolio}
                ></SinglePortfolio>
              ))}
            </div>
